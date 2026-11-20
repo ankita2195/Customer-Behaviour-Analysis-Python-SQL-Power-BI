@@ -59,12 +59,17 @@ Bookmark 2: Customer Behaviour
 - **Advanced SQL**: Used subqueries, CTEs and window functions (RANK()) to identify above-average spenders and top-selling products within each category.
 
 ### 3. Data Visualization (**Power BI**): 
-Built an interactive dashboard to present key metrics, identify behavioural patterns and communicate actionable insights.
+- **Dashboard Structure:** Created two interactive views using bookmarks and page navigation to separate Customer Performance and Customer Behaviour analysis.
+- **KPI Tracking:** Developed DAX measures and KPI cards to track total customers, distinct products, average rating, total spend, average spend and subscription rate.
+- **Customer Performance Analysis:** Used charts to analyse revenue by customer segment, category-wise spending, subscription patterns, purchase frequency, discount usage and top-performing locations.
+- **Customer Behaviour Analysis:** Explored gender-based category preferences, seasonal spending patterns, shipping methods, age-wise spending and category preferences across customer segments.
 
 ---
 
 ## Conclusion
 
-The analysis highlights that customer purchasing behaviour is shaped by product preferences, discount usage and subscription patterns. While a large share of customers belongs to the loyal segment, subscription adoption among repeat buyers remains relatively low.
+The analysis shows that customer purchasing behaviour varies across product categories, customer segments and engagement patterns. Electronics and Accessories together account for nearly 80% of total spending, while subscribers show higher average spending than non-subscribers.
 
-These findings point to opportunities to strengthen customer retention, improve subscription conversion and make promotional strategies more targeted. By using customer data to understand not just what people buy but how they shop, businesses can make more informed marketing, pricing and product decisions.
+Although loyal customers form a substantial part of the customer base, subscription adoption remains an opportunity for improvement. Differences in discount usage and spending across customer segments also highlight the need for more targeted customer strategies.
+
+These insights can help the business make better-informed decisions around product planning, customer targeting, promotional strategies and retention.
