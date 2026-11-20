@@ -80,7 +80,7 @@ SELECT
     ROUND(100*(SUM(CASE WHEN discount_applied = "Yes" THEN 1 ELSE 0 END)/COUNT(*)),2) discount_usage_percentage
 FROM customers
 GROUP BY products
-ORDER BY dicount_usage_percentage DESC
+ORDER BY discount_usage_percentage DESC
 LIMIT 5;
 	# Some products are mostly (50% of times) sold at discounted prices; shows high dependancy on discounts.
 	# Identifying discount-driven products help in optimizing pricing strategies and reduce profit margin losses.
@@ -132,7 +132,7 @@ GROUP BY category;
 SELECT
 	CASE WHEN age BETWEEN 18 AND 30 THEN "18-30"
 		 WHEN age BETWEEN 31 AND 45 THEN "31-45"
-         WHEN age BETWEEN 46 AND 60 THEN "45-60"
+         WHEN age BETWEEN 46 AND 60 THEN "46-60"
 		 ELSE "60+"
 	END AS age_group,
     ROUND(SUM(purchase_amount),2) revenue,
@@ -141,5 +141,5 @@ SELECT
     FROM customers
 GROUP BY age_group
 ORDER BY age_group;
-	# Customers aged 45–60 generate the highest overall revenue due to a larger customer base and strong purchasing activity.
+	# Customers aged 46–60 generate the highest overall revenue due to a larger customer base and strong purchasing activity.
 	# However, customers from the age-group 60+ have the highest average purchase value even after being smallest in count indicating they tend to spend more per transaction compared to other age groups.
