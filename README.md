@@ -10,7 +10,7 @@ Key Business Question: **What drives customer purchasing decisions and repeat pu
 ---
 
 ## Dashboard Preview
-## 👉 **Live Dashboard:** [View Power BI Dashboard](https://app.fabric.microsoft.com/viewr=eyJrIjoiYzJjZjBkZWQtYTU5My00MjY2LTliYTAtMzY5YWJkOTE2OTY3IiwidCI6ImE1ZmI3ZjgwLTIwNTEtNGE5Ny05YjEyLTZhYjIyMmQyYmQ1NSJ9)
+## 👉 **Live Dashboard:** [View Power BI Dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiYzJjZjBkZWQtYTU5My00MjY2LTliYTAtMzY5YWJkOTE2OTY3IiwidCI6ImE1ZmI3ZjgwLTIwNTEtNGE5Ny05YjEyLTZhYjIyMmQyYmQ1NSJ9)
 
 ---
 
@@ -27,10 +27,10 @@ Bookmark 2: Customer Behaviour
 ## Key Business Insights
 
 - **Customer Loyalty:** Around 60% of customers fall into the loyal segment, while only 11% are new customers.
-- **Subscription Opportunity:** Only 30% of repeat buyers (5+ previous purchases) have a subscription, that shows there is a scope to improve subscription adoption.
-- **Discount Behaviour:** Customers using discounts show a higher average purchase value, highlighting an opportunity to examine discount-led spending patterns.
+- **Subscription Opportunity:** Only around 30% of repeat buyers with more than 5 previous purchases have a subscription, that shows there is a scope to improve subscription adoption.
+- **Discount Behaviour:** Customers using discounts show a higher average purchase value than those who didn't, that shows there is an association between discount usage and spending.
 - **Category Performance:** Electronics generates the highest overall revenue among product categories.
-- **Customer Segments:** Customers aged 45–60 contribute the highest revenue, while the 60+ segment records the highest average purchase value.
+- **Customer Segments:** Customers aged 46–60 contribute the highest revenue, while the 60+ segment records the highest average purchase value.
 
 ---
 
